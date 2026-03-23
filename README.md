@@ -30,7 +30,15 @@ HTML, CSS, JS            ↓
                       MongoDB (Database)
                       Students Data
 ```
+## 📸 Screenshots
 
+### Login Page
+![Login Page](images/Screenshot%20(750).png)
+
+### Dashboard
+![Dashboard](images/Screenshot%20(751).png)
+
+## 🏗️ Architecture
 ## 🛠️ Tech Stack
 
 | Layer | Technology | Purpose |
