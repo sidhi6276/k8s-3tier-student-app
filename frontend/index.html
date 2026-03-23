@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduPortal — Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+
+  <div class="login-wrapper">
+
+    <!-- Left Panel -->
+    <div class="login-left">
+      <div class="brand">
+        <span class="brand-icon">🎓</span>
+        <h1>EduPortal</h1>
+      </div>
+      <p class="tagline">Manage Students Smarter</p>
+      <div class="features">
+        <div class="feature-item">✅ Kubernetes Powered</div>
+        <div class="feature-item">✅ Real-time Data</div>
+        <div class="feature-item">✅ Secure & Fast</div>
+      </div>
+      <div class="tech-badges">
+        <span class="badge">FastAPI</span>
+        <span class="badge">MongoDB</span>
+        <span class="badge">K8s</span>
+        <span class="badge">Docker</span>
+      </div>
+    </div>
+
+    <!-- Right Panel Login Form -->
+    <div class="login-right">
+      <div class="login-card">
+        <h2>Welcome Back 👋</h2>
+        <p class="sub">Sign in to your account</p>
+
+        <div id="error-msg" class="error-box hidden"></div>
+
+        <div class="form-group">
+          <label>Username</label>
+          <input type="text" id="username" placeholder="Enter username" />
+        </div>
+
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" id="password" placeholder="Enter password" />
+        </div>
+
+        <button class="btn-login" onclick="doLogin()">Login →</button>
+
+        <div class="hint-box">
+          <p>🔑 Default: <strong>admin</strong> / <strong>admin123</strong></p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
